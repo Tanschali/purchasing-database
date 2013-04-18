@@ -1,37 +1,6 @@
-<html>
-	<head>
-		<style type="text/css">
-		
-			h1 
-			{
-						font-size:300%;
-						font-style:italic;
-						color:#3EA4BE;
-						font-family:Ubuntu,Helvetica,sans-serif;
-						letter-spacing:0.1em;
-						text-align:center;
-		  	}
-		  	
-		  	text
-		  	{
-		  			font-size:110%;
-		  			font-family:Ubuntu,Helvetica,sans-serif;
-		  			color:#3EA4BE;
-		  			text-align:justify;
-		  	}
+Anschaffungsdatenbank
 
 
-		</style>
-	</head>
-
-		<body>
-
-			<h1>Anschaffungsdatenbank</h1>
-			<text>
-			Ein Projekt im Rahmen des Programmiertechnik Unterrichts der Werner von Siemens
-			Schule Mannheim. 
-			</text>
+Im Rahmen des Programmiertechnikunterrichts der Werner von Siemens Schule Mannheim.
 
 
-		<body>
-</html>
