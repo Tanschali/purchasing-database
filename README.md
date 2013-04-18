@@ -16,7 +16,7 @@
 		  	{
 		  			font-size:110%;
 		  			font-family:Ubuntu,Helvetica,sans-serif;
-		  			color:#3EA4BE
+		  			color:#3EA4BE;
 		  			text-align:justify;
 		  	}
 
