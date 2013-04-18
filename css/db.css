@@ -1,0 +1,211 @@
+/* ===================================================================================
+	File: css/db.css
+	Projekt im Rahmen des Programmiertechnik Unterrichts der 2BKI2 der WVSS, Mannheim
+	Thema: Anschaffungsdatenbank
+	Autor: Tanja Weiser
+	================================================================================== 
+	Hinweis: Bestes Ergebnis wird bei der Nutzung des Webbrowsers Chromium erreicht!
+====================================================================================== */
+
+
+/*====================================================================================
+	Background
+====================================================================================== */
+
+body {
+	color:black;
+	background-image: -webkit-linear-gradient(#E6E6E6 0%, #848587 100%); /*Farbverlauf als Background*/
+	text-align: center;
+}
+
+/*====================================================================================
+	DIV Container
+====================================================================================== */
+
+.menu {
+	text-align: center;
+    width:1855;
+    height:100px;
+}
+
+.links {
+	margin-top:-100px;
+	width:50%;
+	max-width:50%;
+	float:left;
+	/*background-color:red;*/
+	height:100px;
+}
+
+.rechts {
+	margin-top:-100px;
+	width:50%;
+	height:100px;
+	float:right;
+	/*background-color:blue;*/
+}
+
+/*====================================================================================
+	Navigation
+====================================================================================== */
+
+#navi {
+	margin-left: 520px;
+	margin-right: 520px;
+	padding: 0 0 23px 0;
+	border-bottom: 2px solid #31727A;
+	font-family:"Ubuntu";
+	font-size:30px;
+}
+
+#navi ul, #navi li{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	font-family:"Ubuntu";
+}
+
+#navi a:link, #navi a:visited {
+	float: left;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0 10px 0 10px;
+	text-decoration: none;
+	color: #31727A;
+	font-family:"Ubuntu";
+}
+
+#navi #akt {
+	padding-bottom: 6px;
+	color: #31727A;
+	border-bottom: 4px solid #31727A;
+	font-family:"Ubuntu";
+}
+
+#navi a:hover, #navi a:hover#akt {
+	padding-bottom: 6px;
+	color: #31727A;
+	border-bottom: 4px solid #31727A;
+	font-family:"Ubuntu";
+}
+
+/*====================================================================================
+	Tabelle
+====================================================================================== */
+
+table {
+	font-family:"Ubuntu";
+	font-color:white;
+	width:430px;
+}
+
+td, th, tr{
+	font-family:"Ubuntu";
+	font-color:white;
+}
+
+th {
+	background-color:#31727A;
+	color:white;
+	font-family:"Ubuntu";
+	font-color:white;
+}
+
+h1 {
+	color:#31727A;
+	font-family:"Ubuntu Medium";
+	text-align:center;
+	font-size:40px;
+}
+
+/*====================================================================================
+	Textformatierung
+====================================================================================== */
+
+text {
+	color:#31727A;
+	font-family:"Ubuntu";
+	font-size:25px;
+}
+
+/*====================================================================================
+	Textfeld, Buttons
+====================================================================================== */
+
+input[type=text] {
+	margin-top: 10px;
+	width:200px;
+	padding:6px;
+	border:1px solid grey;
+	font-family:"Ubuntu";
+	text-align:center;
+	font-size:15px;
+}
+
+/*======================
+	Button - BLAU/ROT
+======================== */
+
+.button-delete {
+	margin-top: 5px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 23px;
+	border-radius: 8px;
+	background: #31727A;
+	color:white;
+	width:130px;
+	height:45px;
+	font-family:"Ubuntu";
+	font-size:15px;
+}
+
+.button-delete:hover {
+	margin-top: 5px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 23px;
+	border-radius: 8px;
+	background: #AC6969;
+	color:white;
+	width:130px;
+	height:45px;
+	font-family:"Ubuntu";
+	font-size:15px;
+}
+
+/*======================
+	Button - BLAU/GRÜN
+======================== */
+
+
+.button-change{
+	margin-top: 5px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 23px;
+	border-radius: 8px;
+	background: #31727A;
+	color:white;
+	width:130px;
+	height:45px;
+	font-family:"Ubuntu";
+	font-size:15px;
+}
+
+.button-change:hover{
+	margin-top: 5px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 23px;
+	border-radius: 8px;
+	background: #6DAC69;
+	color:white;
+	width:130px;
+	height:45px;
+	font-family:"Ubuntu";
+	font-size:15px;
+}
+
+
